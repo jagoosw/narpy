@@ -3,7 +3,7 @@ narpy is a simple NASA AMES file Reader for Python. There didn't seem to be any 
 
 ## Installation
 
-`pip install narpy` (coming soon)
+`pip install narpy`
 
 ## Usage
 

@@ -5,7 +5,7 @@ setup(
     name="narpy",
 
     # Version number (initial):
-    version="0.1.0",
+    version="1.0.1",
 
     # Application author details:
     author="Jago Strong-Wright",
@@ -18,14 +18,15 @@ setup(
     include_package_data=True,
 
     # Details
-    url="https://github.com/jagoosw/narpy/archive/v1.0.tar.gz",
+    url="https://github.com/jagoosw/narpy/",
 
     #
     license="LICENSE.txt",
     description="A simple NASA AMES file Reader for Python",
 
-    #long_description=open("README.md").read().strip().split('\n')[0],
-    #long_description_content_type="text/markdown",
+    long_description="""narpy is a simple NASA AMES file Reader for Python. There didn't seem to be any functioning libraries for opening .na or NASA AMES files in Python so this is what I ended up with. Functionality is fairly limited but gets the core needs done.
+    
+    Please see the "Homepage" for more details as the markdown wouldn't render here """,
 
     # Dependent packages (distributions)
     install_requires=[
