@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     # Application name:
-    name="narpy - NASA AMES Reader for Python",
+    name="narpy",
 
     # Version number (initial):
     version="0.1.0",
@@ -18,14 +18,14 @@ setup(
     include_package_data=True,
 
     # Details
-    url="https://github.com/jagoosw/narpy",
+    url="https://github.com/jagoosw/narpy/archive/v1.0.tar.gz",
 
     #
     license="LICENSE.txt",
     description="A simple NASA AMES file Reader for Python",
 
-    long_description=open("README.md").read(),
-    long_description_content_type="text/markdown",
+    #long_description=open("README.md").read().strip().split('\n')[0],
+    #long_description_content_type="text/markdown",
 
     # Dependent packages (distributions)
     install_requires=[
@@ -34,7 +34,8 @@ setup(
 
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: GLP-3.0 ",
+        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
         "Operating System :: OS Independent",
+        "Topic :: Text Processing :: Markup :: Markdown"
     ],
 )
