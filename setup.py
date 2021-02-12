@@ -22,7 +22,7 @@ setup(
 
     #
     license="LICENSE.txt",
-    description="A simple NASA AMES file format reader for python",
+    description="A simple NASA AMES file Reader for Python",
 
     # long_description=open("README.txt").read(),
 

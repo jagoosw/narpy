@@ -1,6 +1,6 @@
 """narpy - NASA AMES (na) Reader Python
 
-A simple NASA AMES file format reader for python
+A simple NASA AMES file Reader for Python
 
 See http://cedadocs.ceda.ac.uk/73/4/index.html for an explanation of the forma
 
@@ -9,7 +9,7 @@ Example:
 
         $ python
         >>> import narpy as na
-        >>> f=na.file(example.na)
+        >>> f=na.file("example.na")
         >>> f["x"].data
 
 Todo:
@@ -18,7 +18,7 @@ Todo:
 """
 
 __copyright__="""
-    narpy - A simple NASA AMES file format reader for python
+    narpy - A simple NASA AMES file format Reader for Python
     Copyright (C) 2021 Jago Strong-Wright
 
     This program is free software: you can redistribute it and/or modify

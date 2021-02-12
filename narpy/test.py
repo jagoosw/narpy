@@ -2,7 +2,7 @@ import unittest
 from narpy import *
 
 __copyright__="""
-    narpy - A simple NASA AMES file format reader for python
+    narpy - A simple NASA AMES file Reader for Python
     Copyright (C) 2021 Jago Strong-Wright
 
     This program is free software: you can redistribute it and/or modify
@@ -29,7 +29,7 @@ Atmosphere 1976 as quoted in G. Brasseur and S. Solomon, Aeronomy of the Middle
 Atmosphere, Reidel, 1984 (p. 46). It provides typical values of middle latitude averaged air
 concentration and temperature as a function of height (expressed here as the pressure
 level). The first date on line 7 (1st of January 1976) is fictitious since the parameters are
-yearly averages. We have inserted 3 additional lines into the original table near the tropo-
+yearly averages. We have inserted 3 additional lines into the original table near the tropo-go
 pause and stratopause levels, to illustrate the use of the "missing value" flags (see line 12).
 12
 The files included in this data set illustrate each of the 9 NASA Ames file format indices
