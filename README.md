@@ -1,4 +1,6 @@
 # narpy - NASA AMES Reader for Python
+[![DOI](https://zenodo.org/badge/338199187.svg)](https://zenodo.org/badge/latestdoi/338199187)
+
 narpy is a simple NASA AMES file Reader for Python. There didn't seem to be any functioning libraries for opening .na or NASA AMES files in Python so this is what I ended up with. Functionality is fairly limited but gets the core needs done.
 
 ## Installation
