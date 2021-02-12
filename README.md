@@ -7,10 +7,12 @@ narpy is a simple NASA AMES file Reader for Python. There didn't seem to be any 
 
 ## Usage
 
-`$ python
+``` 
+$ python
 >>> import narpy as na
 >>> f=na.file("example.na")
 >>> f["x"].data
 [1,2,3,4,5,6,7,8,9]
 >>> f.comment
-This is an example file`
+This is an example file 
+```
