@@ -18,16 +18,23 @@ setup(
     include_package_data=True,
 
     # Details
-    url="na",
+    url="https://github.com/jagoosw/narpy",
 
     #
     license="LICENSE.txt",
     description="A simple NASA AMES file Reader for Python",
 
-    # long_description=open("README.txt").read(),
+    long_description=open("README.md").read(),
+    long_description_content_type="text/markdown",
 
     # Dependent packages (distributions)
     install_requires=[
         "numpy",
+    ],
+
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: GLP-3.0 ",
+        "Operating System :: OS Independent",
     ],
 )

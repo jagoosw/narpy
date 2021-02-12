@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: narpy-NASA-AMES-Reader-for-Python
+Version: 0.1.0
+Summary: A simple NASA AMES file Reader for Python
+Home-page: https://github.com/jagoosw/narpy
+Author: Jago Strong-Wright
+Author-email: jagoosw@protonmail.com
+License: LICENSE.txt
+Description: # narpy - NASA AMES Reader for Python
+        narpy is a simple NASA AMES file Reader for Python. There didn't seem to be any functioning libraries for opening .na or NASA AMES files in Python so this is what I ended up with. Functionality is fairly limited but gets the core needs done.
+        
+        ## Installation
+        
+        `pip install narpy` (coming soon)
+        
+        ## Usage
+        
+        `$ python
+        >>> import narpy as na
+        >>> f=na.file("example.na")
+        >>> f["x"].data
+        [1,2,3,4,5,6,7,8,9]
+        >>> f.comment
+        This is an example file`
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GLP-3.0 
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

@@ -1,0 +1,15 @@
+.DS_Store
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+narpy/__init__.py
+narpy/narpy.py
+narpy/test.na
+narpy/test.py
+narpy_NASA_AMES_Reader_for_Python.egg-info/PKG-INFO
+narpy_NASA_AMES_Reader_for_Python.egg-info/SOURCES.txt
+narpy_NASA_AMES_Reader_for_Python.egg-info/dependency_links.txt
+narpy_NASA_AMES_Reader_for_Python.egg-info/requires.txt
+narpy_NASA_AMES_Reader_for_Python.egg-info/top_level.txt
